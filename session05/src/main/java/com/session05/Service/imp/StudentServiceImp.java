@@ -36,7 +36,7 @@ public class StudentServiceImp implements StudentService {
     @Override
     public boolean update(Student student) {
         studentRepository.update(student);
-        return false;
+        return true;
     }
 
     @Override
@@ -45,3 +45,4 @@ public class StudentServiceImp implements StudentService {
         return false;
     }
 }
+
